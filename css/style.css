@@ -34,13 +34,16 @@ a{
     background: #e02c6d;
     display: inline-block;
     padding: 10px 24px;
-    border: none;
+    border: 3px solid transparent;
     transition: 0.5s;
     border-radius: 5px;
     text-transform: capitalize;
 }
 .btn:hover{
-    background: #6d0c30;
+    background: rgba(0, 0, 0, 0.6);
+    border: 3px solid #6d0c30;
+    transform: scale(1.3);
+    transition: all .7s;
 }
 .section-title h2{
     text-align: center;
@@ -81,8 +84,9 @@ a{
     margin-bottom: 80px;
 }
 .img-area img:hover{
-    transform: scale(1.4);
-    transition: all 2.5s;
+    transform: scale(1.3) rotate(15deg);
+    transition: all 3s;
+    cursor: pointer;
 }
 
 /*======================== Article Section Style ============================ */
