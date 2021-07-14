@@ -92,9 +92,7 @@ a{
     width: 100%;
     margin-top: 60px;
     margin-bottom: 80px;
-    animation-name: banner-animation;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation: banner-animation 5s linear infinite;
 }
 
 /*======================== Article Section Style ============================ */
